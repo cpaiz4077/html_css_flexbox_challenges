@@ -11,4 +11,38 @@ img {
 	margin: auto;
 	border: 5px solid black;
 	width: 516px;
+
+}
+
+#a {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+#b {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;	
+}
+
+#c {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+}
+
+#d {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column-reverse;
+	align-items: flex-end;
+}
+
+#e {
+	display:flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-between;
 }

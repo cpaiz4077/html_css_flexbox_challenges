@@ -1,37 +1,49 @@
-bod {
-    background-color: black
-    color: white
-    font-familia: Helveticalalala;
-    font-size: 22px
-    padding: 20px;
+body {
+    background: black;
+    color: white;
+    font-family: Helvetica;
+    font-size: 11px;
+    padding: 10px;
 }
 
 h1 {
-    colour: 255, 203, 5; /* rgb value */
-    textalign: center;
+    color: rgb(255, 203, 5); /* rgb value */
+    text-align: center;
+    font-size: 50px;
+    padding-left:10px;
+    padding-right: 25px;
 }
 
-#big_div 
-    border: 3px solid 2E549B; /* hex value */
+.big_div {
+    border: 3px solid #2E549B; /* hex value */
     margin: 30px;
-    pading: 20px;
+    padding: 25px;
+    font-size: 20px;
 }
 
-pokemon_name {
-    text-align: center
-    font-size: 150;
-    font: bold
-    margin: 10px;
+.pokemon_name {
+    text-align: center;
+    font-size: 38px;
+    font: bold;
+    margin: 5px;
+    padding: 5px;
+}
 
 .sub_div {
     display: flex;
+    font-size: 20px;
+    font: bold;
+    
+    
 }
 
 img {
-    width: 250;
-    padding-right: 50px;
+    width: 250px;
+    height: 250px;
+    padding: 50px;
 }
 
-special {
-    font-wieght: cold
-    color: 255, 203, 5; /* rgb value */
+#special {
+    font-weight: bold;
+    color: rgb(255, 203, 5); /* rgb value */
+}
